@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    gauge-slave:
+        build:
+          context: .
+        image: gauge-taiko
+        volumes:
+        # - ./taiko-gauge-examples:/tmp/
+        # - ./:/tmp/
+        - ./reports:/gauge/reports
+        restart: always
+        stdin_open: true
+        tty: true

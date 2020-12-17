@@ -1,18 +1,25 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Gauge - metadata dir
+.gauge
 
-# Other files and folders
-.settings/
+# Gauge - log files dir
+logs
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Gauge - reports dir
+reports
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Gauge - JavaScript node dependencies
+node_modules
+
+# sample files
+example/**
+videos/**
+
+# huge binaries
+**/*.zip
+
+
+**/message.txt
+package-lock.json
+
+# confidential files
+.env
