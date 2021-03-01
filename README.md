@@ -10,6 +10,7 @@
 - [How to run example tests?](#how-to-run-example-tests)
   - [getgauge](#getgauge)
   - [the-internet.herokuapp.com](#the-internetherokuappcom)
+- [How to upgrade?](#how-to-upgrade)
 
 # Quick Setup
 
@@ -145,9 +146,27 @@ gauge run --env the-internet.herokuapp.com,default specs/herokuapp/
 ```
 
 To run and skip certain tests by using tag:
-``
+```
 gauge run --env the-internet.herokuapp.com,default --tags 'herokuapp & !regression' specs/herokuapp/
 ```
 
 For more info on [Tag Expression](https://docs.gauge.org/execution.html?os=windows&language=javascript&ide=vscode#tag-expressions)
 
+
+# How to upgrade?
+
+To update gauge, launch Command Prompt as administrator and run the following command:
+```
+choco install gauge
+```
+
+To update plugins, run the following command:
+```
+gauge update -a
+```
+
+To update taiko using npm:taiko --version
+```
+npm update -g taiko
+
+```

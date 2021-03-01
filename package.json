@@ -1,13 +1,13 @@
 {
   "name": "gauge-taiko-template",
-  "version": "0.0.1",
+  "version": "0.0.115",
   "description": "Starter template for writing JavaScript tests for Gauge",
   "scripts": {
     "test": "gauge run specs/"
   },
   "dependencies": {
-    "@getgauge/cli": "^1.1.5",
-    "taiko": "latest"
+    "@getgauge/cli": "^1.1.7",
+    "taiko": "1.2.2"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
