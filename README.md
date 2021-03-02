@@ -135,7 +135,7 @@ and, run the test!
 
 To run an example test:
 ```
-gauge run --env getgauge,default specs/getgauge/
+gauge run --env getgauge,default specs/getgauge/ 
 ```
 
 ## the-internet.herokuapp.com
